@@ -1,0 +1,11 @@
+#backBtn {
+    position: relative !important;
+    bottom: 280px !important;
+    right: 230px !important;
+}
+
+#startCube {
+    width: 900px !important;
+    bottom: 217px !important;
+    left: 150px !important;
+}

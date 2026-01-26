@@ -1,0 +1,101 @@
+button {
+    display: inline-block;
+    margin-left: 22vw;
+    margin-right: 90vw;
+    width: 723px;
+    height: 200px;
+}
+
+
+body {
+    min-height: 90vh;
+    min-width: 90vw;
+    max-width: 90vw;
+    align-content: center;
+    text-align: center;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+#or {
+    position: relative;
+    left: 35px;
+}
+
+#main {
+    margin-left: 42px;
+}
+
+button {
+    display: inline-block;
+    padding: 30px 80px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #d0f0ff, #aee2ff);
+    color: #1a1a1a;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: all 1s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+    color: black;
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+html {
+    background-image: url(../imgs/homePageBG.png);
+}
+
+#wcaBtn, #getStartedBtn {
+    position: absolute;
+    width: 250px;   
+}
+
+#wcaBtn {
+    left: -255px;
+    bottom: 350px;
+}
+
+#getStartedBtn {
+    bottom: 350px;
+    left: 855px;
+}
+
+video {
+  width: 75%;
+  height: auto;
+  position: relative;
+  left: 49.65px;
+  top: 41.1px;
+}
+
+#backBtn {
+    position: relative;
+    right: 310px;
+    bottom: 36.5px;
+}
+
+#back {
+    width: 150px;
+    height: 150px;
+}
+
+#backImg {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    right: 50px;
+    bottom: 5px;
+}

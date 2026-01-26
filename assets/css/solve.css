@@ -1,0 +1,44 @@
+html {
+    background-image: url(../imgs/homePageBG.png);
+}
+
+#scramble {
+    font-size: 90px;
+    position: relative;
+    bottom: 70px;
+}
+
+#time {
+    font-size: 400px;
+    position: relative;
+    bottom: 115px;
+    left: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+html, body {
+    overflow: hidden;
+    text-align: center;
+}
+
+#ao5 {
+    font-size: 50px;
+    position: relative;
+    bottom: 150px;
+    color: #0b090a;
+}
+
+mark {
+    background-color: white;
+}
+
+#scramble {
+    color: rgb(10, 116, 10);
+}
+
+#timeText {
+    color: blueviolet;
+}
