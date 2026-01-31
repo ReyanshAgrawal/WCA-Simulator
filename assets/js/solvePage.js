@@ -9,8 +9,8 @@ let solves = []
 let worst;
 let best;
 let simulatorRunning = true;
-
 let startTime = null;
+alert("Kindly enable notifications for an overall better experience. This will allow us to send you a notification to tell you to start just in case.")
 
 function beginTimer() {
     solveRunning = true;
@@ -45,6 +45,12 @@ function up(e) {
                         console.error("Playback failed: ", err)
                     })
                     beginTimer()
+                    new Notification("START!!!!!!!!!!!!!!", {
+                        body: "GO GO GOoooOOoOOo!!!",
+                        icon: "../imgs/faviconTwo.png",
+                        image: "../imgs/favicon.png",
+                        
+                    })
                 }, 15000)
             }
         } else {
