@@ -47,9 +47,7 @@ function up(e) {
                     beginTimer()
                     new Notification("START!!!!!!!!!!!!!!", {
                         body: "GO GO GOoooOOoOOo!!!",
-                        icon: "../imgs/faviconTwo.png",
-                        image: "../imgs/favicon.png",
-                        
+                        icon: "../imgs/favicon.png",                        
                     })
                 }, 15000)
             }
